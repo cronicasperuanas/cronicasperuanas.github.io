@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Crónicas Peruanas</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/inicio.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="img/logo-2.png" class="img-nav"></a>
+                <div class="container">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active text-center text-black" aria-current="page" href="inicio.html"><i
+                                    class="icon bi bi-house"></i>Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-center text-black" aria-current="page" href="temas.html"><i
+                                    class="icon bi bi-journals  "></i>Temas</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container mt-5 pt-5">
+            <h2>Aquí Encontraras todos los temas actualizados a la fecha</h2>
+            <br>
+            <p>Los temas mostrados aquí son de caracter único</p>
+            <div class="row">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Diálogos del bicentenario
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Dialógos del bicentenario</strong> Es un artículo en el cual se ha trabajado y
+                                consta de diversos temas para el conocimiento de las peronas que quieran descubir como
+                                ha estado nuestra nación a lo largo de tantos años.
+                                <br>
+                                <button class="btn mt-3" onclick="goToDialog()">Ir al tema</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false"
+                                aria-controls="collapseTwo">
+                                Gastronomía peruana
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Gatronomía peruana</strong> nos habla de la riqueza de los sabores peruanos y el
+                                porqué es mundialmente
+                                reconocida. Exploraremos platos icónicos como el ceviche, el lomo saltado y el ají de
+                                gallina, así como las influencias culturales que han dado forma a esta deliciosa
+                                tradición culinaria.
+                                <br>
+                                <button class="btn mt-3">Ir al tema</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                aria-controls="collapseThree">
+                                Fiestas y celebraciones tradicionales
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Fiestas y celebraciones tradicionales</strong>nos habla acerca del Perú y el
+                                porqué de sus
+                                famosas y coloridas festividades como el Inti Raymi y el Carnaval de Cajamarca.
+                                Descubre las raíces históricas y culturales de estas celebraciones y cómo se viven en la
+                                actualidad.
+                                <br>
+                                <button class="btn mt-3">Ir al tema</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordation-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false"
+                                aria-controls="collapseFour">
+                                Arte y artesanía peruana </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Arte y artesanía peruana.</strong>Desde la cerámica de Chulucanas hasta los
+                                textiles de Cusco, el arte y la artesanía peruanos son excepcionales. Exploraremos las
+                                técnicas, los materiales y la importancia cultural de estas creaciones únicas.
+                                <br>
+                                <button class="btn mt-3">Ir al tema</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordation-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button  bg-dark text-white collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false"
+                                aria-controls="collapseFive">
+                                Historia y sitios arqueológico </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Historia y sitios arqueológicos</strong> Sumérgete en la rica historia de Perú,
+                                desde las antiguas civilizaciones como los Incas y los Moche hasta la época colonial y
+                                la independencia. También visitaremos sitios arqueológicos como Machu Picchu.
+                                <br>
+                                <button class="btn mt-3">Ir al tema</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordation-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false"
+                                aria-controls="collapseSix">
+                                Música y danzas tradicionales </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Música y danzas tradicionales</strong> ILa música y la danza son parte esencial
+                                de la vida peruana. Descubre géneros como la marinera y la huayno, así como los
+                                instrumentos típicos que los acompañan.
+                                <br>
+                                <button class="btn mt-3">Ir al tema</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordation-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false"
+                                aria-controls="collapseSeven">
+                                Diversidad geográfica </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">: Perú es un país de contrastes geográficos, desde la costa
+                                desértica hasta la selva amazónica y los Andes majestuosos. Exploraremos cómo esta
+                                diversidad influye en la cultura y la vida cotidiana.
+                                <button class="btn mt-3">Ir al tema</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordation-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button bg-dark text-white collapsed" type="button"
+                                data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false"
+                                aria-controls="collapseEight">
+                                Lenguas indígenas y diversidad lingüística </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <strong>Lenguas indígenas y diversidad lingüística</strong> demás del español, Perú
+                                alberga una gran variedad de lenguas indígenas. Aprenderemos sobre su importancia
+                                cultural y su preservación en la sociedad actual.
+                                <br>
+                                <button class="btn mt-3">Ir al tema</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <footer class=" mt-5 py-5 text-white text-center ">
+            <p>&copy; Todos los derechos a sus respectivos creadores</p>
+        </footer>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+        <script>
+            function goToDialog() {
+                window.location.href = 'dialogos.html';
+            }
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

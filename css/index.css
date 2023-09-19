@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mooli', sans-serif;
+    width: 100%;
+}
+.header{
+    height: 100vh;
+    background: url(../img/pro-1_11zon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.645);
+    height: 100vh;
+}
+h1{
+    font-size: 70px;
+    margin-top: 180px;
+}
+.btn-acceder{
+    width: 100px;
+    height: 40px;
+    margin-top: 15px;
+    border-style: none;
+    border-radius: 25px;
+    background: red;
+    transition: background 0.3s ease, color 0.3s ease;
+    font-size: 17px;
+}
+.btn-acceder:hover{
+    background: gold;
+    color: black !important;
+    border-color: black !important;
+    border-style: groove
+}
+

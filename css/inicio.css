@@ -1,0 +1,82 @@
+nav{
+    background-color: red;
+    width: 100%;
+    height: 70px;
+}
+section{
+    background: url(../img/banner_11zon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+}
+.overlay{
+    background: rgba(0, 0, 0, 0.6);
+    height: 90vh;
+    width: 100%;
+}
+.txt-banner{
+    margin-top: 210px;
+}
+.img-banner{
+    margin-left: 300px !important;
+    margin-top: 60px;
+    width: 260px;
+}
+.img-nav{
+    width: 40px;
+    padding: 2px;
+    margin-left: 10px;
+}
+.nav-link {
+    /* Estilos por defecto para los enlaces */
+    text-decoration: none;
+    color: white !important; /* Color de texto por defecto */
+    border-bottom: 2px solid transparent; /* Línea inferior transparente por defecto */
+    transition: border-bottom 0.3s ease, color 0.3s ease;
+}
+.nav-link:hover {
+    /* Estilos cuando se pasa el mouse sobre el enlace */
+    border-bottom: 2px solid black !important;
+    color: black !important;
+}
+.nav-link:active{
+    border-bottom: 2px solid white !important;
+    color: white !important;
+}
+.icon{
+    padding-right: 4px;
+}
+.card{
+    margin-top: 30px;
+    margin-left: 50px;
+    transition: box-shadow 0.3s ease;
+    box-shadow: none;
+    border-style: groove;
+    border-color: black;
+    height: 520px;
+}
+.img-buro{
+    margin-left: 200px;
+    padding: 2px;
+}
+/* Agrega un box-shadow cuando se pasa el mouse sobre la tarjeta (efecto de elevación) */
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* Efecto de sombra al pasar el mouse */
+}
+.btn{
+    background-color: red;
+    color: black !important;
+    border-style: groove;
+    border-color: black;
+    transition: background 0.3s ease, color 0.3s ease;  
+}
+.btn:hover{
+    background-color:gold !important  ;
+    border-style: groove;
+    border-color: black !important;
+}
+footer{
+    background-color: red !important;
+}
